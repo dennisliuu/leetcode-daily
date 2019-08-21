@@ -14,7 +14,7 @@ public:
             hd += t & 1;
             t >>= 1;
         }
-        
+        return hd;
     }
 };
 
