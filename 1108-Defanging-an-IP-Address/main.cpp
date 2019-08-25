@@ -3,22 +3,31 @@
 
 using namespace std;
 
-class Solution {
+class Solution
+{
 public:
-    string defangIPaddr(string address) {
+    string defangIPaddr(string address)
+    {
         std::string output;
         output.reserve(address.size());
-        for (const char c: address) {
-            switch (c) {
-                case '.':  output += "[.]";        break;
-                default:    output += c;            break;
+        for (const char c : address)
+        {
+            switch (c)
+            {
+            case '.':
+                output += "[.]";
+                break;
+            default:
+                output += c;
+                break;
             }
         }
         return output;
     }
 };
 
-int main (void) {
+int main(void)
+{
     Solution s;
     cout << s.defangIPaddr("1.1.1.1") << endl;
 
