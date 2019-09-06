@@ -10,4 +10,6 @@ Time complexity: O(n)
 
 並透過 index != i 時表示有不為 0 的數字被往前放了，因此在 i 時改為原本的 0
 
+此題若用 erase 在 push_back 會失效，因為會蓋掉數字
+
 ### 技術筆記
