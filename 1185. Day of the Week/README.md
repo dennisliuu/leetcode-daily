@@ -10,3 +10,5 @@ Time complexity: O(1)
 ### 技術筆記
 
 沒有，第一次知道解月份可以這ㄇ屌
+
+延伸閱讀：https://www.quora.com/How-does-Tomohiko-Sakamotos-Algorithm-work
