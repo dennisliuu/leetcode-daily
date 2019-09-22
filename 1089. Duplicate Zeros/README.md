@@ -1,6 +1,6 @@
 ```
 Environment: gcc version 7.4.0
-Date: 2019//
+Date: 2019/9/22
 Time complexity: O(n)
 ```
 
